@@ -1,0 +1,21 @@
+/* bloque boton */
+.back-home{
+    display: none;
+    height: 60px;
+    width: 60px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: #13171C;
+    color: white;
+    position:fixed;
+    right: 12px;
+    bottom: 40px;
+}
+.back-home>i{
+    font-size: 20px;
+}
+@media(min-width: 950px){
+    .back-home{
+        display: block;   
+    }
+}
